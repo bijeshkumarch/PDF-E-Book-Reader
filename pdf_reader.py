@@ -73,7 +73,7 @@ while(i<pages):
         pass
     else:
         sound=mpath+"page"+str(i+1)+".mp3"   
-        myobj=gTTS(text=mtext,lang=choose_lang,slow=False)
+        myobj=gTTS(text=mtext,lang=choose_lang,slow=True)
     
         myobj.save(sound)
 
